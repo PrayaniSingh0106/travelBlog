@@ -1,0 +1,48 @@
+@CHARSET "ISO-8859-1";
+
+
+body {
+
+	font-family: Georgia, serif;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	color: royalblue;
+	
+	
+}
+
+
+
+header .row,
+footer .row {
+  display: flex;
+ justify-content: flex-end;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+element.style{
+ background-blend-mode: soft-light;
+
+}
+
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  color: #6a8885;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+h2,h1:{
+color: #FFF;
+}
